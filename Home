@@ -1,5 +1,9 @@
 <html>
-<head></head>
+  <head>
+    <style>
+    body {align: center}
+    </style>
+  </head>
 
 <body>prova</body>
 
