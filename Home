@@ -3,18 +3,27 @@
   
   
     <style>
+	body {background-image: url('https://i.imgur.com/OeaHwKS.png');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: bottom;
+  }
     html {display: table;
 		margin: auto;
 		}
 	body {display: table-cell;
 		vertical-align: middle;
-		padding-top: 50px;
+		padding-top: 25px;
 		font-family: "arial";
 		}
+	a {text-decoration: none;
+	}
     table, td, tr {border: 0px solid black;
-		padding: 5px;
+		padding: 0 25px 0 25px;
 		border-collapse: collapse;
-		max-width: 500px;
+		}
+	table {width: 600px;
+		max-width: 600px;
 		}
 	t {text-transform: uppercase;
 		font-size: 42px;
@@ -30,7 +39,7 @@
 		font-weight: bold;
 		line-height: 32px;
 		}
-	cit2 {color: lightblue;
+	cit2 {color: 7da7d7;
 		}
 	autore {font-size: 14px;
 		font-weight: bold;
@@ -40,9 +49,44 @@
 		font-weight: bold;
 		line-height: 40px;
 		}
+	t3 {font-size: 18px;
+		font-weight: bold;
+		line-height: 24px;
+		}
 	bio {font-size: 18px;
 		}
 	who {background-color: #000;
+		}
+	div.ex1 {width: 120px;
+		height: auto;
+		padding: 15px;
+		background-color: #fcfcfc;
+		border-radius: 5px;
+		border-bottom: 4px solid  rgba(0,0,0, .08);
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+		box-shadow: 0px 0px 15px rgba(0,0,0, .1);
+	}
+	div.ex1:hover {width: 120px;
+		height: auto;
+		padding: 15px;
+		background-color: #7da7d7;
+		border-radius: 5px;
+		border-bottom: 4px solid #5674b7;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		color: #ffffff;
+		box-shadow: 0px 0px 15px rgba(0,0,0, .2);
+	}
+	credit {color: #fff;
+		text-align: center;
+		FONT-WEIGHT: BOLD;
+		text-shadow: 0px 0px 15px rgba(0,0,0, .5);
 		}
     </style>
 	
@@ -60,32 +104,41 @@
 
 
 	<tr>
-		<td><img  width="200px" src="https://i.imgur.com/ZW0YpZq.jpg" style="border-radius: 100px; box-shadow: 0px 0px 25px rgba(0,0,0, .3)"></td>
-		<td style="padding-left: 20px"><t>Mirko Mina</t>
+		<td>
 		<br>
-		<st>Fotografo & Graphic Designer</st>
+		<img  width="200px" src="https://i.imgur.com/ZW0YpZq.jpg"
+		style="border-radius: 100px;
+		box-shadow: 0px 0px 25px rgba(0,0,0, .3)">
+		</td>
+		
+		<td width="50%">
 		<br>
-		Curriculum</td>
+		<t>Mirko<br> Mina</t>
+		<br>
+		<st>Fotografo &<br>Graphic Designer</st>
+		<br>
+		Curriculum
+		</td>
 	</tr>
 
 
 	<tr>
-		<td align="center" colspan="2"><br><br>
+		<td align="center" colspan="2"><br><br><br>
 		<cit><cit2>"</cit2>La bellezza non è tutto,<br>
-		è l'unica cosa.<cit2>"</cit2></cit></td>
+		è l'unica cosa.<cit2>"</cit2></cit>
+		<br>
+		<div align="right" style="padding-top: 10px"><autore>The Neon Demon</autore></div>
+		<br><br><br></td>
 	</tr>
 	
 	
-	<tr>
-		<td align="right" colspan="2"><autore>The Neon Demon</autore><br><br><br><br></td>
-	</tr>
 	</tr>
 	
 	
-	<tr style="background-color: rgba(0,0,0, .01);
-		box-shadow: 0px 5px 20px rgba(0,0,0, .1);
+	<tr style="background-color: #fcfcfc;
+		box-shadow: 0px 0px 20px rgba(0,0,0, .1);
 		border-radius: 0 10px 10px 0;
-		border-left: 10px solid lightblue;">
+		border-left: 10px solid #7da7d7;">
 		
 		<td colspan="2" style="padding: 25px;">
 		<t2>Chi sono?</t2>
@@ -96,16 +149,73 @@
 
 </td>
 	</tr>
-	
-	
+</table>	
+
+<br><br>
+
+<table>	
 	<tr>
-		<td colspan ="2">Contatti
+		<td colspan="3"><t2>Contatti & social</t2><br><br></td>
+	</tr>
+	<tr align="center">
+		<td>
+		<a href="mailto: mirko.mina96@gmail.com"><div class="ex1">📩 Mail</div></a>
+		</td>
+		<td>
+		<a href="http://mirkomina.altervista.org/"><div class="ex1">📚 Portfolio</div></a>
+		</td>
+		<td>
+		<a href="https://www.instagram.com/mirko.mina/"><div class="ex1">📸 Instagram</div></a>
+		</td>
 		</td>
 	</tr>
 	
+	
 	<tr>
-		<td>Foto e Video</td>
-		<td>Grafica</td>
+		<td><br>
+		<a href="https://www.facebook.com/mirko.mina"><div class="ex1">🙍‍ Facebook</div></a>
+		</td>
+		<td><br>
+		<a href="https://www.linkedin.com/in/mirko-mina-0850a8167/"><div class="ex1">📌 Linkedin</div></a>
+		</td>
+		<td><br>
+		<a href="https://talent.start2impact.it/profile/mirko-mina"><div class="ex1">🚀 s2i</div></a>
+		</td><br><br>
+		</td>
+	</tr>
+
+
+</table>
+
+
+<br><br><br><br><br>
+
+
+<table>
+	
+	<tr style="background-color: #fcfcfc;
+		box-shadow: 0px 0px 20px rgba(0,0,0, .1);
+		border-radius: 0 10px 10px 0;
+		border-left: 10px solid #7da7d7;">
+		<td valign="top"><br><br>
+		<t2>Foto e Video</t2>
+		<br><ul><t3>
+		<li>Photoshop<br>
+		<li>Lightroom<br>
+		<li>Premiere<br></t3></ul>
+		<br><br>
+		</td>
+		
+		<td>
+		<br><br>
+		<t2>Grafica</t2>
+		<br><ul><t3>
+		<li>Illustrator<br>
+		<li>InDesign<br>
+		<li>HTML e CSS<br>
+		<li>Git Hub</t3></ul>
+		<br><br>
+		</td>
 	</tr>
 
 
@@ -113,6 +223,13 @@
 
 
 </table>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<center><credit>Created by Mirko Mina</credit></CENTER>
+
+<br><br>
+
 </body>
 
 
