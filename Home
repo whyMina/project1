@@ -88,6 +88,10 @@
 		FONT-WEIGHT: BOLD;
 		text-shadow: 0px 0px 15px rgba(0,0,0, .5);
 		}
+	a {color: #7da7d7;
+		font-weight: bold;
+		}
+	a:hover {color: #5674b7}
     </style>
 	
 	
@@ -116,8 +120,8 @@
 		<t>Mirko<br> Mina</t>
 		<br>
 		<st>Fotografo &<br>Graphic Designer</st>
-		<br>
-		Curriculum
+		<br><br>
+		<a href="https://drive.google.com/file/d/1103-0erIJ4alGVVA3WCH-8eP6N5jl8ys/view?usp=sharing">📋 Curriculum</a>
 		</td>
 	</tr>
 
