@@ -1,17 +1,117 @@
 <html>
   <head>
+  
+  
     <style>
-    body {text-align: center;}
-    table {border: 1ps solid #000000;}
+    html {display: table;
+		margin: auto;
+		}
+	body {display: table-cell;
+		vertical-align: middle;
+		padding-top: 50px;
+		font-family: "arial";
+		}
+    table, td, tr {border: 0px solid black;
+		padding: 5px;
+		border-collapse: collapse;
+		max-width: 500px;
+		}
+	t {text-transform: uppercase;
+		font-size: 42px;
+		font-weight: bold;
+		line-height: 32px;
+		}
+	st {text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		}
+	cit {font-family: "times new roman";
+		font-size: 42px;
+		font-weight: bold;
+		line-height: 32px;
+		}
+	cit2 {color: lightblue;
+		}
+	autore {font-size: 14px;
+		font-weight: bold;
+		}
+	t2 {text-transform: uppercase;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 40px;
+		}
+	bio {font-size: 18px;
+		}
+	who {background-color: #000;
+		}
     </style>
+	
+	
   </head>
 
+
+
 <body>
+
+
 <table>
-  <tr>
-    <td>img</td>
-    <td>test</td>
-  </tr>
+
+
+
+
+	<tr>
+		<td><img  width="200px" src="https://i.imgur.com/ZW0YpZq.jpg" style="border-radius: 100px; box-shadow: 0px 0px 25px rgba(0,0,0, .3)"></td>
+		<td style="padding-left: 20px"><t>Mirko Mina</t>
+		<br>
+		<st>Fotografo & Graphic Designer</st>
+		<br>
+		Curriculum</td>
+	</tr>
+
+
+	<tr>
+		<td align="center" colspan="2"><br><br>
+		<cit><cit2>"</cit2>La bellezza non è tutto,<br>
+		è l'unica cosa.<cit2>"</cit2></cit></td>
+	</tr>
+	
+	
+	<tr>
+		<td align="right" colspan="2"><autore>The Neon Demon</autore><br><br><br><br></td>
+	</tr>
+	</tr>
+	
+	
+	<tr style="background-color: rgba(0,0,0, .01);
+		box-shadow: 0px 5px 20px rgba(0,0,0, .1);
+		border-radius: 0 10px 10px 0;
+		border-left: 10px solid lightblue;">
+		
+		<td colspan="2" style="padding: 25px;">
+		<t2>Chi sono?</t2>
+		<br>
+		<bio>Mi sono laureato all'indirizzo di <b>grafica</b> dell’Accademia Albertina di Belle Arti di Torino, durante gli anni di studio mi sono sempre più appassionato anche alla <b>fotografia</b> e al <b>video-making</b> aumentando sempre di più il mio amore verso il cinema.
+		<br><br>
+		Sono un ragazzo molto curioso, ho tante passioni che cerco di coltivare e che mi permettono di applicare tutte le conoscenze che apprendo nei miei lavori. Fotografia, cinema, grafica, design e molto altro possono essere interessi che si alimentano vicendevolmente facendo diventare ogni cosa interessante, dipende tutto da quale punto di vista la si analizza.</bio>
+
+</td>
+	</tr>
+	
+	
+	<tr>
+		<td colspan ="2">Contatti
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Foto e Video</td>
+		<td>Grafica</td>
+	</tr>
+
+
+
+
+
 </table>
 </body>
 
