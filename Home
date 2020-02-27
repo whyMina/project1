@@ -2,10 +2,18 @@
   <head>
     <style>
     body {text-align: center;}
+    table {border: 1ps solid #000000;}
     </style>
   </head>
 
-<body>prova</body>
+<body>
+<table>
+  <tr>
+    <td>img</td>
+    <td>test</td>
+  </tr>
+</table>
+</body>
 
 
 </html>
